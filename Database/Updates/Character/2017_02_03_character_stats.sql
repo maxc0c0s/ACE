@@ -1,3 +1,4 @@
+USE ace_character;
 CREATE TABLE `character_appearance` (
   `id` int(10) unsigned NOT NULL,
   `race` tinyint(1) unsigned NOT NULL,

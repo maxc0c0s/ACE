@@ -1,3 +1,4 @@
+USE ace_auth;
 DROP TABLE IF EXISTS `accesslevel`;
 
 CREATE TABLE IF NOT EXISTS `accesslevel` (

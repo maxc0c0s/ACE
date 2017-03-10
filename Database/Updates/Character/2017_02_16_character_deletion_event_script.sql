@@ -1,6 +1,8 @@
 /* Mark Character as Deleted Event Script */
 /*                                        */
 
+USE ace_character;
+
 SET GLOBAL event_scheduler = ON;
 delimiter |
 CREATE EVENT IF NOT EXISTS check_for_characters_to_delete
