@@ -1,3 +1,5 @@
+USE ace_character;
+
 CREATE TABLE IF NOT EXISTS `character_properties_bool` (
   `guid` INT UNSIGNED NOT NULL DEFAULT '0',
   `propertyId` SMALLINT UNSIGNED NOT NULL DEFAULT '0',

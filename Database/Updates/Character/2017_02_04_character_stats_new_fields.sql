@@ -1,3 +1,5 @@
+USE ace_character;
+
 ALTER TABLE character_stats
 ADD COLUMN strengthRanks TINYINT(2) UNSIGNED NOT NULL DEFAULT 0 AFTER strength;
 

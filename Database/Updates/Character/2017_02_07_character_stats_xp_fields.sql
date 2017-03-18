@@ -1,3 +1,5 @@
+USE ace_character;
+
 ALTER TABLE character_stats
 ADD COLUMN strengthXpSpent INTEGER UNSIGNED NOT NULL DEFAULT 0 AFTER strength;
 

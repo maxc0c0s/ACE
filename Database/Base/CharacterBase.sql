@@ -11,6 +11,7 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
 -- Dumping structure for table ace_character.character
+USE ace_character;
 CREATE TABLE IF NOT EXISTS `character` (
   `guid` int(10) unsigned NOT NULL DEFAULT '0',
   `accountId` int(10) unsigned NOT NULL DEFAULT '0',

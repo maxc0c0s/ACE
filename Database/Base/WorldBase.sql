@@ -11,6 +11,7 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
 -- Dumping structure for table ace_world.teleport_location
+USE ace_world;
 CREATE TABLE IF NOT EXISTS `teleport_location` (
   `location` varchar(100) NOT NULL DEFAULT '',
   `cell` int(10) unsigned NOT NULL DEFAULT '0',

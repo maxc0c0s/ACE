@@ -1,3 +1,5 @@
+USE ace_character;
+
 CREATE TABLE `character_friends` (
 	`id` INT(10) UNSIGNED NOT NULL,
 	`friendId` INT(10) UNSIGNED NOT NULL,
